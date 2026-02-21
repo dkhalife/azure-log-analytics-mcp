@@ -1,0 +1,37 @@
+{
+  "name": "azure-log-analytics-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for querying Azure Log Analytics workspaces",
+  "main": "dist/index.js",
+  "bin": {
+    "azure-log-analytics-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["mcp", "azure", "log-analytics", "kql", "application-insights", "kusto"],
+  "license": "MIT",
+  "author": "dkhalife",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkhalife/azure-log-analytics-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dkhalife/azure-log-analytics-mcp/issues"
+  },
+  "homepage": "https://github.com/dkhalife/azure-log-analytics-mcp#readme",
+  "dependencies": {
+    "@azure/identity": "^4.6.0",
+    "@azure/monitor-query": "^1.3.0",
+    "@modelcontextprotocol/sdk": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
