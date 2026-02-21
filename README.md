@@ -38,12 +38,6 @@ No build step required for end users. Just use `npx`:
 APP_INSIGHTS_WORKSPACE_ID=<your-workspace-id> npx @dkhalife/azure-log-analytics-mcp@latest
 ```
 
-Or install globally:
-
-```bash
-npm install -g @dkhalife/azure-log-analytics-mcp
-```
-
 For development:
 
 ```bash
