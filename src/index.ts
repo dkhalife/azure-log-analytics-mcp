@@ -6,7 +6,7 @@ import {
   LogsQueryClient,
   LogsQueryResultStatus,
   LogsTable,
-} from "@azure/monitor-query";
+} from "@azure/monitor-query-logs";
 import { z } from "zod";
 
 const workspaceId = process.env.APP_INSIGHTS_WORKSPACE_ID;
