@@ -1,6 +1,6 @@
 {
   "name": "@dkhalife/azure-log-analytics-mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for querying Azure Log Analytics workspaces",
   "main": "dist/index.js",
   "bin": {
