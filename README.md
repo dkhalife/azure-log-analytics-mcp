@@ -35,7 +35,7 @@ All operations are strictly read-only — KQL is a query language, not a mutatio
 No build step required for end users. Just use `npx`:
 
 ```bash
-APP_INSIGHTS_WORKSPACE_ID=<your-workspace-id> npx @dkhalife/azure-log-analytics-mcp
+APP_INSIGHTS_WORKSPACE_ID=<your-workspace-id> npx @dkhalife/azure-log-analytics-mcp@latest
 ```
 
 Or install globally:
@@ -98,7 +98,7 @@ Add to your VS Code `settings.json` under MCP servers:
     "servers": {
       "log-analytics": {
         "command": "npx",
-        "args": ["@dkhalife/azure-log-analytics-mcp"],
+        "args": ["@dkhalife/azure-log-analytics-mcp@latest"],
         "env": {
           "APP_INSIGHTS_WORKSPACE_ID": "<your-workspace-id>"
         }
@@ -117,7 +117,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "log-analytics": {
       "command": "npx",
-      "args": ["@dkhalife/azure-log-analytics-mcp"],
+      "args": ["@dkhalife/azure-log-analytics-mcp@latest"],
       "env": {
         "APP_INSIGHTS_WORKSPACE_ID": "<your-workspace-id>"
       }
